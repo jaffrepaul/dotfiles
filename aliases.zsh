@@ -13,7 +13,7 @@ alias root="cd $HOME/"
 alias gs="git status"
 alias gaa='git add --all'
 alias gd="git diff"
-alias branch="git check out -b"
+alias gbr="git checkout -b"
 alias gl="git log --oneline --decorate --color"
 
 # zsh
