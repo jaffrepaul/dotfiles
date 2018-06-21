@@ -8,3 +8,5 @@ brew 'node'
 
 # Apps
 cask 'alfred'
+cask 'google-chrome'
+cask 'firefox'
