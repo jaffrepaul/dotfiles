@@ -1,3 +1,8 @@
+# Taps
+tap 'caskroom/cask'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+
 # Install Binaries
 brew 'git'
 brew 'zsh'
