@@ -5,8 +5,10 @@ tap 'homebrew/bundle'
 
 # Install Binaries
 brew 'git'
+brew 'mackup'
 brew 'zsh'
 brew 'zsh-completions'
+brew 'trash'
 
 # Development
 brew 'node'
@@ -23,3 +25,10 @@ cask 'hyperdock'
 cask 'postman'
 cask 'makerbot-print'
 cask 'visual-studio-code'
+
+# Quicklook
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'qlImageSize'
