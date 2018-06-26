@@ -87,3 +87,19 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
     General -bool true \
     OpenWith -bool true \
     Privileges -bool true
+    
+###############################################################################
+# Dock, Dashboard, and hot corners                                            #
+###############################################################################
+
+# Wipe all (default) app icons from the Dock
+# This is only really useful when setting up a new Mac, or if you don’t use
+# the Dock to launch apps.
+defaults write com.apple.dock persistent-apps -array
+
+###############################################################################
+# Photos                                                                      #
+###############################################################################
+
+# Prevent Photos from opening automatically when devices are plugged in
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
