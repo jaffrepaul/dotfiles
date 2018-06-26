@@ -57,6 +57,7 @@ ZSH_CUSTOM=$DOTFILES
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-nvm heroku osx npm yarn web-search)
 
+# Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
