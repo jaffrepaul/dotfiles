@@ -132,6 +132,9 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # the Dock to launch apps.
 defaults write com.apple.dock persistent-apps -array
 
+# Add a spacer to the right side of the Dock (where the Trash is)
+defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-type="spacer-tile";}'
+
 ###############################################################################
 # Photos                                                                      #
 ###############################################################################
