@@ -25,6 +25,7 @@ cask 'hyperdock'
 cask 'postman'
 cask 'makerbot-print'
 cask 'visual-studio-code'
+cask '1password'
 
 # Quicklook
 cask 'qlcolorcode'
