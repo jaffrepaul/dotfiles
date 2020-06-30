@@ -20,14 +20,6 @@ alias gl="git log --oneline --decorate --color"
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 
-# Vagrant
-# alias v="vagrant global-status"
-# alias vup="vagrant up"
-# alias vhalt="vagrant halt"
-# alias vssh="vagrant ssh"
-# alias vreload="vagrant reload"
-# alias vrebuild="vagrant destroy --force && vagrant up"
-
 # Docker
 # alias dstop="docker stop $(docker ps -a -q)"
 # alias dpurgecontainers="dstop && docker rm $(docker ps -a -q)"
